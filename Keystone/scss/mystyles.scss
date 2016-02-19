@@ -1,0 +1,31 @@
+.btn {
+    background-color: coral;
+    color: white;
+}
+
+a:hover {
+    color: coral !important;
+}
+
+h2 {
+    font-size: 2em !important;
+}
+
+.modal-content {
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+  .slide {
+    display: none !important;
+  }
+    footer {
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+    }
+    .map {
+        display: none !important;
+    }
+}
